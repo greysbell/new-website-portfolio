@@ -1,0 +1,45 @@
+import {
+  siPython,
+  siPytorch,
+  siFastapi,
+  siSqlite,
+  siNvidia,
+  siHuggingface,
+  siTypescript,
+  siJavascript,
+  siNextdotjs,
+  siReact,
+  siPandas,
+  siNumpy,
+  siHtml5,
+  siElevenlabs,
+  siYoutube,
+  siGoogle,
+  siFfmpeg,
+} from 'simple-icons'
+
+export const logoById = {
+  python: siPython,
+  pytorch: siPytorch,
+  fastapi: siFastapi,
+  sqlite: siSqlite,
+  nvidia: siNvidia,
+  huggingface: siHuggingface,
+  typescript: siTypescript,
+  javascript: siJavascript,
+  nextjs: siNextdotjs,
+  react: siReact,
+  pandas: siPandas,
+  numpy: siNumpy,
+  html5: siHtml5,
+  elevenlabs: siElevenlabs,
+  youtube: siYoutube,
+  google: siGoogle,
+  ffmpeg: siFfmpeg,
+
+  // Custom logos (served from `public/logos/`)
+  openai: { title: 'OpenAI', src: '/logos/openai-svgrepo-com.svg', mono: true },
+  playwright: { title: 'Playwright', src: '/logos/Playwright--Streamline-Svg-Logos.svg', mono: true },
+  sora: { title: 'Sora', src: '/logos/openai-sora.svg', mono: true },
+}
+
